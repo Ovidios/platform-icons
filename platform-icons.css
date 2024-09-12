@@ -2,8 +2,8 @@ span.plicon, a.plicon-auto::after {
     display: inline-block;
     width: 1rem;
     height: 1rem;
-    -webkit-mask-image: url("svg/github.svg");
-    mask-image: url("svg/github.svg");
+    -webkit-mask-image: url("svg/placeholder.svg");
+    mask-image: url("svg/placeholder.svg");
     background-color: currentColor;
     vertical-align: bottom;
 }
@@ -13,7 +13,10 @@ a.plicon-auto::after {
 }
 
 /* PLATFORM DATA */
-span.plicon[data-platform="itch.io"], a.plicon-auto[href*="itch.io"]::after {
+span.plicon[data-platform="placeholder"] {
+    -webkit-mask-image: url("svg/placeholder.svg");
+    mask-image: url("svg/placeholder.svg");
+}span.plicon[data-platform="itch.io"], a.plicon-auto[href*="itch.io"]::after {
     -webkit-mask-image: url("svg/itch.io.svg");
     mask-image: url("svg/itch.io.svg");
 }span.plicon[data-platform="youtube"], a.plicon-auto[href*="youtube.com"]::after, a.plicon-auto[href*="youtu.be"]::after {

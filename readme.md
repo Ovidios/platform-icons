@@ -26,6 +26,7 @@ The SVG icons as well as the CSS is generated from [a spritesheet](icons.png) as
 
 ## Included Icons
 Since I'm creating these icons as my need for them arises, not very many exist so far.
+- ![](png/placeholder.png) Placeholder icon
 - ![](png/github.png) GitHub
 - ![](png/twitter.png) Twitter *(or X if you're weird)*
 - ![](png/itch.io.png) itch.io

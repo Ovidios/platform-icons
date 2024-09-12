@@ -1,5 +1,9 @@
 [
     {
+        "names": ["placeholder"],
+        "urls": []
+    },
+    {
         "names": ["itch.io"],
         "urls": ["itch.io"]
     },
