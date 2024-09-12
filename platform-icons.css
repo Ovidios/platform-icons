@@ -28,4 +28,10 @@ span.plicon[data-platform="placeholder"] {
 }span.plicon[data-platform="twitter"], span.plicon[data-platform="x"], a.plicon-auto[href*="twitter.com"]::after, a.plicon-auto[href*="x.com"]::after {
     -webkit-mask-image: url("svg/twitter.svg");
     mask-image: url("svg/twitter.svg");
+}span.plicon[data-platform="imdb"], a.plicon-auto[href*="imdb.com"]::after {
+    -webkit-mask-image: url("svg/imdb.svg");
+    mask-image: url("svg/imdb.svg");
+}span.plicon[data-platform="steam"], a.plicon-auto[href*="steampowered.com"]::after, a.plicon-auto[href*="steamcommunity.com"]::after {
+    -webkit-mask-image: url("svg/steam.svg");
+    mask-image: url("svg/steam.svg");
 }

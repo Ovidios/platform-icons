@@ -18,5 +18,13 @@
     {
         "names": ["twitter", "x"],
         "urls": ["twitter.com", "x.com"]
+    },
+    {
+        "names": ["imdb"],
+        "urls": ["imdb.com"]
+    },
+    {
+        "names": ["steam"],
+        "urls": ["steampowered.com", "steamcommunity.com"]
     }
 ]

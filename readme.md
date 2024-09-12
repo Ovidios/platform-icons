@@ -31,6 +31,8 @@ Since I'm creating these icons as my need for them arises, not very many exist s
 - ![](png/twitter.png) Twitter *(or X if you're weird)*
 - ![](png/itch.io.png) itch.io
 - ![](png/youtube.png) YouTube
+- ![](png/imdb.png) IMDb
+- ![](png/steam.png) Steam
 
 ## Adding Icons
 To add an icon, simply add it to the right of the [existing icons](icons.png), then add an entry in the [labels file](labels.json), which should look as follows:
