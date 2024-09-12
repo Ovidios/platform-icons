@@ -1,0 +1,18 @@
+[
+    {
+        "names": ["itch.io"],
+        "urls": ["itch.io"]
+    },
+    {
+        "names": ["youtube"],
+        "urls": ["youtube.com", "youtu.be"]
+    },
+    {
+        "names": ["github"],
+        "urls": ["github.com"]
+    },
+    {
+        "names": ["twitter", "x"],
+        "urls": ["twitter.com", "x.com"]
+    }
+]

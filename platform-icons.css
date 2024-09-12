@@ -1,0 +1,28 @@
+span.plicon, a.plicon-auto::after {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    -webkit-mask-image: url("svg/github.svg");
+    mask-image: url("svg/github.svg");
+    background-color: currentColor;
+    vertical-align: bottom;
+}
+a.plicon-auto::after {
+    content: "";
+    margin-left: .5rem;
+}
+
+/* PLATFORM DATA */
+span.plicon[data-platform="itch.io"], a.plicon-auto[href*="itch.io"]::after {
+    -webkit-mask-image: url("svg/itch.io.svg");
+    mask-image: url("svg/itch.io.svg");
+}span.plicon[data-platform="youtube"], a.plicon-auto[href*="youtube.com"]::after, a.plicon-auto[href*="youtu.be"]::after {
+    -webkit-mask-image: url("svg/youtube.svg");
+    mask-image: url("svg/youtube.svg");
+}span.plicon[data-platform="github"], a.plicon-auto[href*="github.com"]::after {
+    -webkit-mask-image: url("svg/github.svg");
+    mask-image: url("svg/github.svg");
+}span.plicon[data-platform="twitter"], span.plicon[data-platform="x"], a.plicon-auto[href*="twitter.com"]::after, a.plicon-auto[href*="x.com"]::after {
+    -webkit-mask-image: url("svg/twitter.svg");
+    mask-image: url("svg/twitter.svg");
+}

@@ -1,0 +1,16 @@
+span.plicon, a.plicon-auto::after {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    -webkit-mask-image: url("svg/github.svg");
+    mask-image: url("svg/github.svg");
+    background-color: currentColor;
+    vertical-align: bottom;
+}
+a.plicon-auto::after {
+    content: "";
+    margin-left: .5rem;
+}
+
+/* PLATFORM DATA */
+[[platform_data]]
