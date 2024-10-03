@@ -26,5 +26,9 @@
     {
         "names": ["steam"],
         "urls": ["steampowered.com", "steamcommunity.com"]
+    },
+    {
+        "names": ["bluesky", "bsky"],
+        "urls": ["bsky.app", "bsky.social"]
     }
 ]

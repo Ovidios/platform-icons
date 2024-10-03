@@ -33,6 +33,7 @@ Since I'm creating these icons as my need for them arises, not very many exist s
 - ![](png/youtube.png) YouTube
 - ![](png/imdb.png) IMDb
 - ![](png/steam.png) Steam
+- ![](png/bluesky.png) Bluesky
 
 ## Adding Icons
 To add an icon, simply add it to the right of the [existing icons](icons.png), then add an entry in the [labels file](labels.json), which should look as follows:

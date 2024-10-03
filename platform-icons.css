@@ -34,4 +34,7 @@ span.plicon[data-platform="placeholder"] {
 }span.plicon[data-platform="steam"], a.plicon-auto[href*="steampowered.com"]::after, a.plicon-auto[href*="steamcommunity.com"]::after {
     -webkit-mask-image: url("svg/steam.svg");
     mask-image: url("svg/steam.svg");
+}span.plicon[data-platform="bluesky"], span.plicon[data-platform="bsky"], a.plicon-auto[href*="bsky.app"]::after, a.plicon-auto[href*="bsky.social"]::after {
+    -webkit-mask-image: url("svg/bluesky.svg");
+    mask-image: url("svg/bluesky.svg");
 }
