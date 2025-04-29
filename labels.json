@@ -30,5 +30,13 @@
     {
         "names": ["bluesky", "bsky"],
         "urls": ["bsky.app", "bsky.social"]
+    },
+    {
+        "names": ["anilist"],
+        "urls": ["anilist.co"]
+    },
+    {
+        "names": ["internet-archive", "archive", "openlibrary"],
+        "urls": ["archive.org", "openlibrary.org"]
     }
 ]

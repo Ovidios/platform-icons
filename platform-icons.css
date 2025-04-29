@@ -37,4 +37,10 @@ span.plicon[data-platform="placeholder"] {
 }span.plicon[data-platform="bluesky"], span.plicon[data-platform="bsky"], a.plicon-auto[href*="bsky.app"]::after, a.plicon-auto[href*="bsky.social"]::after {
     -webkit-mask-image: url("svg/bluesky.svg");
     mask-image: url("svg/bluesky.svg");
+}span.plicon[data-platform="anilist"], a.plicon-auto[href*="anilist.co"]::after {
+    -webkit-mask-image: url("svg/anilist.svg");
+    mask-image: url("svg/anilist.svg");
+}span.plicon[data-platform="internet-archive"], span.plicon[data-platform="archive"], span.plicon[data-platform="openlibrary"], a.plicon-auto[href*="archive.org"]::after, a.plicon-auto[href*="openlibrary.org"]::after {
+    -webkit-mask-image: url("svg/internet-archive.svg");
+    mask-image: url("svg/internet-archive.svg");
 }
